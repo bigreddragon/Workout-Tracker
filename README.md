@@ -1,3 +1,3 @@
 Workout-Tracker
 ===============
-This is going to be a workout tracking program.
+This is going to be a workout tracking program for Mac.

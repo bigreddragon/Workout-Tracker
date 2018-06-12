@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E07153B020D001CE00469FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07153AF20D001CE00469FAA /* AppDelegate.m */; };
+		E07153B320D001CE00469FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07153B220D001CE00469FAA /* ViewController.m */; };
+		E07153B620D001CE00469FAA /* Workout_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E07153B420D001CE00469FAA /* Workout_Tracker.xcdatamodeld */; };
+		E07153B820D001CE00469FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07153B720D001CE00469FAA /* Assets.xcassets */; };
+		E07153BB20D001CE00469FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07153B920D001CE00469FAA /* Main.storyboard */; };
+		E07153BE20D001CE00469FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E07153BD20D001CE00469FAA /* main.m */; };
+		E07153C920D001CE00469FAA /* Workout_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E07153C820D001CE00469FAA /* Workout_TrackerTests.m */; };
+		E07153D420D001CE00469FAA /* Workout_TrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E07153D320D001CE00469FAA /* Workout_TrackerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E07153C520D001CE00469FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07153A320D001CE00469FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07153AA20D001CE00469FAA;
+			remoteInfo = "Workout Tracker";
+		};
+		E07153D020D001CE00469FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07153A320D001CE00469FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07153AA20D001CE00469FAA;
+			remoteInfo = "Workout Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E07153AB20D001CE00469FAA /* Workout Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07153AE20D001CE00469FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E07153AF20D001CE00469FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E07153B120D001CE00469FAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E07153B220D001CE00469FAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E07153B520D001CE00469FAA /* Workout_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Workout_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		E07153B720D001CE00469FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E07153BA20D001CE00469FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E07153BC20D001CE00469FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07153BD20D001CE00469FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E07153BF20D001CE00469FAA /* Workout_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Workout_Tracker.entitlements; sourceTree = "<group>"; };
+		E07153C420D001CE00469FAA /* Workout TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07153C820D001CE00469FAA /* Workout_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workout_TrackerTests.m; sourceTree = "<group>"; };
+		E07153CA20D001CE00469FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07153CF20D001CE00469FAA /* Workout TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07153D320D001CE00469FAA /* Workout_TrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workout_TrackerUITests.m; sourceTree = "<group>"; };
+		E07153D520D001CE00469FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07153A820D001CE00469FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07153C120D001CE00469FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07153CC20D001CE00469FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E07153A220D001CE00469FAA = {
+			isa = PBXGroup;
+			children = (
+				E07153AD20D001CE00469FAA /* Workout Tracker */,
+				E07153C720D001CE00469FAA /* Workout TrackerTests */,
+				E07153D220D001CE00469FAA /* Workout TrackerUITests */,
+				E07153AC20D001CE00469FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E07153AC20D001CE00469FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07153AB20D001CE00469FAA /* Workout Tracker.app */,
+				E07153C420D001CE00469FAA /* Workout TrackerTests.xctest */,
+				E07153CF20D001CE00469FAA /* Workout TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E07153AD20D001CE00469FAA /* Workout Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				E07153AE20D001CE00469FAA /* AppDelegate.h */,
+				E07153AF20D001CE00469FAA /* AppDelegate.m */,
+				E07153B120D001CE00469FAA /* ViewController.h */,
+				E07153B220D001CE00469FAA /* ViewController.m */,
+				E07153B720D001CE00469FAA /* Assets.xcassets */,
+				E07153B920D001CE00469FAA /* Main.storyboard */,
+				E07153BC20D001CE00469FAA /* Info.plist */,
+				E07153BD20D001CE00469FAA /* main.m */,
+				E07153BF20D001CE00469FAA /* Workout_Tracker.entitlements */,
+				E07153B420D001CE00469FAA /* Workout_Tracker.xcdatamodeld */,
+			);
+			path = "Workout Tracker";
+			sourceTree = "<group>";
+		};
+		E07153C720D001CE00469FAA /* Workout TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E07153C820D001CE00469FAA /* Workout_TrackerTests.m */,
+				E07153CA20D001CE00469FAA /* Info.plist */,
+			);
+			path = "Workout TrackerTests";
+			sourceTree = "<group>";
+		};
+		E07153D220D001CE00469FAA /* Workout TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E07153D320D001CE00469FAA /* Workout_TrackerUITests.m */,
+				E07153D520D001CE00469FAA /* Info.plist */,
+			);
+			path = "Workout TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E07153AA20D001CE00469FAA /* Workout Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07153D820D001CE00469FAA /* Build configuration list for PBXNativeTarget "Workout Tracker" */;
+			buildPhases = (
+				E07153A720D001CE00469FAA /* Sources */,
+				E07153A820D001CE00469FAA /* Frameworks */,
+				E07153A920D001CE00469FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workout Tracker";
+			productName = "Workout Tracker";
+			productReference = E07153AB20D001CE00469FAA /* Workout Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E07153C320D001CE00469FAA /* Workout TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07153DB20D001CE00469FAA /* Build configuration list for PBXNativeTarget "Workout TrackerTests" */;
+			buildPhases = (
+				E07153C020D001CE00469FAA /* Sources */,
+				E07153C120D001CE00469FAA /* Frameworks */,
+				E07153C220D001CE00469FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E07153C620D001CE00469FAA /* PBXTargetDependency */,
+			);
+			name = "Workout TrackerTests";
+			productName = "Workout TrackerTests";
+			productReference = E07153C420D001CE00469FAA /* Workout TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E07153CE20D001CE00469FAA /* Workout TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07153DE20D001CE00469FAA /* Build configuration list for PBXNativeTarget "Workout TrackerUITests" */;
+			buildPhases = (
+				E07153CB20D001CE00469FAA /* Sources */,
+				E07153CC20D001CE00469FAA /* Frameworks */,
+				E07153CD20D001CE00469FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E07153D120D001CE00469FAA /* PBXTargetDependency */,
+			);
+			name = "Workout TrackerUITests";
+			productName = "Workout TrackerUITests";
+			productReference = E07153CF20D001CE00469FAA /* Workout TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E07153A320D001CE00469FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Big Red Dragon Software LLC";
+				TargetAttributes = {
+					E07153AA20D001CE00469FAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E07153C320D001CE00469FAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E07153AA20D001CE00469FAA;
+					};
+					E07153CE20D001CE00469FAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E07153AA20D001CE00469FAA;
+					};
+				};
+			};
+			buildConfigurationList = E07153A620D001CE00469FAA /* Build configuration list for PBXProject "Workout Tracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E07153A220D001CE00469FAA;
+			productRefGroup = E07153AC20D001CE00469FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07153AA20D001CE00469FAA /* Workout Tracker */,
+				E07153C320D001CE00469FAA /* Workout TrackerTests */,
+				E07153CE20D001CE00469FAA /* Workout TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E07153A920D001CE00469FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07153B820D001CE00469FAA /* Assets.xcassets in Resources */,
+				E07153BB20D001CE00469FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07153C220D001CE00469FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07153CD20D001CE00469FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07153A720D001CE00469FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07153B620D001CE00469FAA /* Workout_Tracker.xcdatamodeld in Sources */,
+				E07153B320D001CE00469FAA /* ViewController.m in Sources */,
+				E07153BE20D001CE00469FAA /* main.m in Sources */,
+				E07153B020D001CE00469FAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07153C020D001CE00469FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07153C920D001CE00469FAA /* Workout_TrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07153CB20D001CE00469FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07153D420D001CE00469FAA /* Workout_TrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E07153C620D001CE00469FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07153AA20D001CE00469FAA /* Workout Tracker */;
+			targetProxy = E07153C520D001CE00469FAA /* PBXContainerItemProxy */;
+		};
+		E07153D120D001CE00469FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07153AA20D001CE00469FAA /* Workout Tracker */;
+			targetProxy = E07153D020D001CE00469FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E07153B920D001CE00469FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07153BA20D001CE00469FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E07153D620D001CE00469FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E07153D720D001CE00469FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E07153D920D001CE00469FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Workout Tracker/Workout_Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VLA54K7R3;
+				INFOPLIST_FILE = "Workout Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BigRedDragonSoftwareLLC.Workout-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E07153DA20D001CE00469FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Workout Tracker/Workout_Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VLA54K7R3;
+				INFOPLIST_FILE = "Workout Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BigRedDragonSoftwareLLC.Workout-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E07153DC20D001CE00469FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VLA54K7R3;
+				INFOPLIST_FILE = "Workout TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BigRedDragonSoftwareLLC.Workout-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workout Tracker.app/Contents/MacOS/Workout Tracker";
+			};
+			name = Debug;
+		};
+		E07153DD20D001CE00469FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VLA54K7R3;
+				INFOPLIST_FILE = "Workout TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BigRedDragonSoftwareLLC.Workout-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workout Tracker.app/Contents/MacOS/Workout Tracker";
+			};
+			name = Release;
+		};
+		E07153DF20D001CE00469FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VLA54K7R3;
+				INFOPLIST_FILE = "Workout TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BigRedDragonSoftwareLLC.Workout-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Workout Tracker";
+			};
+			name = Debug;
+		};
+		E07153E020D001CE00469FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VLA54K7R3;
+				INFOPLIST_FILE = "Workout TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BigRedDragonSoftwareLLC.Workout-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Workout Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07153A620D001CE00469FAA /* Build configuration list for PBXProject "Workout Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07153D620D001CE00469FAA /* Debug */,
+				E07153D720D001CE00469FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07153D820D001CE00469FAA /* Build configuration list for PBXNativeTarget "Workout Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07153D920D001CE00469FAA /* Debug */,
+				E07153DA20D001CE00469FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07153DB20D001CE00469FAA /* Build configuration list for PBXNativeTarget "Workout TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07153DC20D001CE00469FAA /* Debug */,
+				E07153DD20D001CE00469FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07153DE20D001CE00469FAA /* Build configuration list for PBXNativeTarget "Workout TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07153DF20D001CE00469FAA /* Debug */,
+				E07153E020D001CE00469FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E07153B420D001CE00469FAA /* Workout_Tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E07153B520D001CE00469FAA /* Workout_Tracker.xcdatamodel */,
+			);
+			currentVersion = E07153B520D001CE00469FAA /* Workout_Tracker.xcdatamodel */;
+			path = Workout_Tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E07153A320D001CE00469FAA /* Project object */;
+}
